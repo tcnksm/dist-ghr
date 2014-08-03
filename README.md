@@ -25,7 +25,13 @@ To create and update application on Heroku, use [Terraform](http://www.terraform
 To test:
 
 ```bash
-terraform plan -var heroku_email=$HEROKU_EMAIL -var heroku_api_key=$HEROKU_API_KEY
+$ terraform plan -var heroku_email=$HEROKU_EMAIL -var heroku_api_key=$HEROKU_API_KEY
+```
+
+To create and update:
+
+```bash
+$ terraform apply -var heroku_email=$HEROKU_EMAIL -var heroku_api_key=$HEROKU_API_KEY
 ```
 
 ## Config
