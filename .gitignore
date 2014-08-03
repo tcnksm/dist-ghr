@@ -1,3 +1,4 @@
 .vagrant
 .envrc
-.envrc
+terraform.tfstate
+terraform.tfstate.backup
