@@ -1,4 +1,4 @@
-dist-ghr
+re-dist-ghr
 ====
 
 Redirect distribution for [tcnksm/ghr](https://github.com/tcnksm/ghr)
@@ -15,7 +15,7 @@ $ L=/usr/local/bin/ghr && curl -sL -A "`uname -sp`" http://localhost:3000/ghr.zi
 
 ## URL
 
-Artifacts is hosted on github relase page, [https://github.com/tcnksm/ghr/releases/download/${VERSION}/ghr_${VERSION}_${OS}_${ARCH}]()
+Artifacts is hosted on github relase page, [https://github.com/tcnksm/ghr/releases/download/${VERSION}/ghr\_${VERSION}\_${OS}\_${ARCH}.zip]()
 
 
 ## Terraform
