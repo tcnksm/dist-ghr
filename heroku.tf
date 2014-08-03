@@ -1,0 +1,16 @@
+variable "heroku_email" {}
+variable "heroku_api_key" {}
+
+provider "heroku" {
+  email = "${var.heroku_email}"
+  api_key = "${var.heroku_api_key}"
+}
+
+resource "heroku_app" "default" {
+  name = "ghr"
+  config_vars {
+    BASE_URL="https://github.com/tcnksm/ghr/releases"
+    DIST_NAME="ghr"
+    VERSION="v0.1.0"
+  }
+}
