@@ -1,0 +1,5 @@
+{
+	"ImportPath": "github.com/tcnksm/dist-ghr",
+	"GoVersion": "go1.2.2",
+	"Deps": []
+}
