@@ -8,10 +8,10 @@ Redirect distribution for [tcnksm/ghr](https://github.com/tcnksm/ghr)
 To enable user to downlaod packages, with **same url** and **same command**.
 
 ```
-$ L=/usr/local/bin/ghr && curl -sL -A "`uname -sp`" http://localhost:3000/ghr.zip | zcat >$L && chmod +x $L
+$ L=/usr/local/bin/ghr && curl -sL -A "`uname -sp`"  http://ghr.herokuapp.com/ghr.zip | zcat >$L && chmod +x $L
 ```
 
-[http://localhost:3000]() will attempt to detect your OS and CPU architecture based on the User-Agent, then redirect you to the latest release for your platform.
+[http://ghr.herokuapp.com/]() will attempt to detect your OS and CPU architecture based on the User-Agent, then redirect you to the latest release for your platform.
 
 ## URL
 
