@@ -13,6 +13,6 @@ resource "heroku_app" "default" {
     BUILDPACK_URL="https://github.com/kr/heroku-buildpack-go.git"
     BASE_URL="https://github.com/tcnksm/ghr/releases"
     DIST_NAME="ghr"
-    VERSION="v0.1.0"
+    VERSION="v0.1.1"
   }
 }
